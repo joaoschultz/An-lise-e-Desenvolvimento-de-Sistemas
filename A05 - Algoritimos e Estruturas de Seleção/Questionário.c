@@ -6,25 +6,25 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     float valor, valorProduto;
     char nome[50];
 
-    // Entrada de dados
     printf("Digite o nome do produto: ");
     scanf("%s", nome);
-
     printf("Digite o valor do produto: ");
     scanf("%f", &valor);
 
-    // Cálculo do desconto
-    if (valor <= 500) {
+    if (valor <= 500)
+    {
         valorProduto = valor - (valor * 0.08);
-    } else {
+    }
+    else
+    {
         valorProduto = valor;
     }
 
-    // Saída
     printf("Produto: %s\n", nome);
     printf("Valor final: %.2f\n", valorProduto);
 
