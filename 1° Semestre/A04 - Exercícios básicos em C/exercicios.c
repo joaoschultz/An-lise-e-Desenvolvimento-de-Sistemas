@@ -5,7 +5,7 @@ int main()
 {
     int a, b, soma;
     printf("Digite dois números: ");
-    scanf("%d %d", &a, &b); // O sinal de &, é aonde eu quero armazenar no endereco de memoria onde esta a variavel
+    scanf("%d %d", &a, &b); // O sinal de &, é aonde eu quero armazenar no endereço de memoria onde esta a variavel
 
     soma = a + b;
     printf("A soma é: %d", soma);

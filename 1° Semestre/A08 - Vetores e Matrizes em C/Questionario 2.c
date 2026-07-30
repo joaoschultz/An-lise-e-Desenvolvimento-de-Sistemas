@@ -5,7 +5,6 @@ int main() {
     int i, j;
     int soma = 0;
 
-    // Entrada dos valores da matriz
     printf("Digite os 9 valores da matriz 3x3:\n");
 
     for(i = 0; i < 3; i++) {
@@ -15,12 +14,10 @@ int main() {
         }
     }
 
-    // Soma da diagonal principal
     for(i = 0; i < 3; i++) {
         soma = soma + matriz[i][i];
     }
 
-    // Exibição do resultado
     printf("\nA soma da diagonal principal e: %d\n", soma);
 
     return 0;
