@@ -1,0 +1,9 @@
+A05 — Aplicando CSS | JFK Pacotes Turísticos
+
+Como visualizar: abra index.html em um navegador.
+
+Fluxo de compra: início → detalhes de um dos quatro pacotes → Comprar → login ou criar conta → Salvar cadastro → informações de pagamento → finalizar compra. O login também permite avançar à etapa de pagamento.
+
+Páginas de destino: pacote-rio.html, pacote-foz.html, pacote-salvador.html e pacote-gramado.html. A página pacote.html permanece como alternativa dinâmica compatível com links antigos.
+
+O protótipo usa validação nativa do HTML5 e JavaScript apenas para navegar entre as telas. Não há servidor, autenticação, reserva ou processamento de pagamento. Os dados digitados não são enviados nem armazenados. Os créditos e licenças das fotos estão em CREDITOS.md.

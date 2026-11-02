@@ -1,0 +1,8 @@
+A05 — Aplicando CSS | Telas 3 e 4
+
+Como visualizar: abra index.html em um navegador.
+
+Fluxo: Início → Saiba mais → Comprar → Entrar → Criar conta.
+As páginas login.html e cadastro.html ficam na pasta raiz, junto aos demais arquivos do projeto. Os campos usam tipos HTML5 (email, password, text e tel) e validação nativa do navegador; a confirmação compara as duas senhas.
+
+Observação: este é um protótipo de interface. Login e cadastro ainda não enviam dados nem estão conectados a um servidor.

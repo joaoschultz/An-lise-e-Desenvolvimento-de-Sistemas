@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | JFK Pacotes Turísticos</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <header class="topo">
+        <a href="index.html" class="logo">JFK <span>Turismo</span></a>
+        <a href="index.html" class="voltar">Voltar ao início</a>
+    </header>
+
+    <main class="pagina-auth">
+        <section class="card-auth card-cadastro">
+            <div class="icone">✈</div>
+
+            <h1>Crie sua conta</h1>
+            <p class="subtitulo">
+                Cadastre-se para ficar mais perto da sua próxima viagem.
+            </p>
+
+            <form id="formCadastro">
+                <div class="campo">
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome completo"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exemplo@email.com"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="novoUsuario">Nome de usuário</label>
+                    <input
+                        type="text"
+                        id="novoUsuario"
+                        name="usuario"
+                        placeholder="Escolha um nome de usuário"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="novaSenha">Senha</label>
+                    <input
+                        type="password"
+                        id="novaSenha"
+                        name="senha"
+                        placeholder="Crie uma senha com 8 caracteres ou mais"
+                        minlength="8"
+                        autocomplete="new-password"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="confirmarSenha">Confirmar senha</label>
+                    <input
+                        type="password"
+                        id="confirmarSenha"
+                        name="confirmarSenha"
+                        placeholder="Digite a senha novamente"
+                        minlength="8"
+                        autocomplete="new-password"
+                        required
+                    >
+                </div>
+
+                <label class="aceite">
+                    <input type="checkbox" id="termos" required>
+                    Li e aceito os termos de uso e a política de privacidade.
+                </label>
+
+                <button type="submit" class="botao-principal">
+                    Criar minha conta
+                </button>
+            </form>
+
+            <p class="rodape-auth">
+                Já possui uma conta?
+                <a href="login.html">Faça login</a>
+            </p>
+        </section>
+    </main>
+
+    <script src="auth.js"></script>
+</body>
+</html>

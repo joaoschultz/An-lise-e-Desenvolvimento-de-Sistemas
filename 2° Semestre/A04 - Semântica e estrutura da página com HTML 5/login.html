@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | JFK Pacotes Turísticos</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header class="topo">
+        <a href="index.html" class="logo">JFK <span>Turismo</span></a>
+        <a href="index.html" class="voltar">Voltar ao início</a>
+    </header>
+
+    <main class="pagina-auth">
+        <section class="card-auth">
+            <div class="icone">✈</div>
+
+            <h1>Bem-vindo de volta!</h1>
+            <p class="subtitulo">
+                Entre na sua conta e continue planejando sua próxima viagem.
+            </p>
+
+            <form id="formLogin">
+                <div class="campo">
+                    <label for="usuario">E-mail ou usuário</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        name="usuario"
+                        placeholder="Digite seu e-mail ou usuário"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input
+                        type="password"
+                        id="senha"
+                        name="senha"
+                        placeholder="Digite sua senha"
+                        autocomplete="current-password"
+                        required
+                    >
+                </div>
+
+                <div class="opcoes">
+                    <label class="mostrar-senha">
+                        <input type="checkbox" id="mostrarSenha">
+                        Mostrar senha
+                    </label>
+
+                    <a href="#" id="recuperarSenha">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="botao-principal">
+                    Entrar na conta
+                </button>
+            </form>
+
+            <p class="rodape-auth">
+                Ainda não tem uma conta?
+                <a href="cadastro.html">Cadastre-se</a>
+            </p>
+        </section>
+    </main>
+
+    <script src="auth.js"></script>
+</body>
+</html>
